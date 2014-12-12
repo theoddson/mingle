@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Settings</title>
+<link href="landing.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="scripts/tabs.js"></script>
+
+
+</head>
+
+<body>
+	<header>
+		<a href="index.html"  id="logo-small"><img src="images/logo-small.png" /></a>
+		<nav>
+			<ul>
+				<li><a href="matches.html">Matches</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li class="no-right"><a href="#"><img class="gear" src="images/gear2.png" /></a></li>
+			</ul>
+		</nav>
+	</header>
+		<div  id="tabs-column">
+			<ul>
+				<li class="tab current-tab" id="tab1">Account</li>
+				<li class="tab" id="tab2">Basic Info</li>
+			</ul>
+		</div><!-- tabs column -->
+
+		<div class="tab-area initial" id="tab-area1">
+			<div class="area-header">
+				<h2>Account</h2>
+				<div class="save">Save</div>
+			</div>
+			<div class="row">
+				<p class="input-name">E-mail</p>
+				<input class="settings-input" type="text" placeholder="Password" readonly>
+				<p class="edit" id="one">Edit</p>
+			</div><!-- END row -->
+			<div class="row">
+				<p class="input-name">Password</p>
+				<input class="settings-input" type="text" placeholder="Password" readonly>
+				<p class="edit" id="two">Edit</p>
+			</div><!-- END row -->
+		</div><!-- END tab -->
+
+		<div class="tab-area" id="tab-area2">
+			<div class="area-header">
+				<h2>Basics</h2>
+				<div class="save">Save</div>
+			</div>
+
+			<div class="row">
+				<p class="input-name"></p>
+			</div>
+			<div class="row">
+				<p class="input-name">Height: 6'1</p>
+				<p class="edit" id="two">Edit</p>
+			</div>
+			<div class="row">
+					<p class="input-name">Weight: 250</p>
+					<p class="edit" id="two">Edit</p>
+			</div>
+			<div class="row">
+				<p class="input-name">Eye Color: Brown</p>
+				<p class="edit" id="two">Edit</p>
+			</div>
+			<div class="row">
+				<p class="input-name">Body: More to love</p>
+				<p class="edit" id="two">Edit</p>
+			</div>
+		</div><!-- END tab -->
+
+
+</body>
+</html>

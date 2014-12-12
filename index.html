@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mingle</title>
+<link href="landing.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="scripts/email.js"></script>
+
+<script type="text/javascript" src="scripts/scripts.js"></script>
+
+
+</head>
+
+<body>
+	<ul id="nav">
+		<li><a href="#first" title="Next Section" class="full"></a></li>
+	    <li><a href="#second" title="Next Section"></a></li>
+	</ul>
+
+		<div id="first">
+			<video autoplay="autoplay" loop>
+				<source src="images/background-vid.mp4" type="video/mp4">
+			</video>
+
+			<div class="content">
+				<img class="landing-logo" src="images/logo.png" alt="cuddle logo" />
+				<h1>Mingle</h1>
+				<div class="Center intro-text">
+					<h2>A Different Way to Meet</h2>
+					<p>We help you break the ice with that potential special someone that you <br>might've overlooked</p>
+				</div><!-- END intro text-->
+				<form>
+					<input class="input-field username" type="text" placeholder="Name" data-error-message="please enter a username" data-validate="username" />
+					<input class="input-field password" type="text" placeholder="Email" data-error-message="please enter a password" data-validate="password" />
+					<div class="form-errors"></div>
+					<div class="login">Log in</div>
+				</form>
+			</div><!-- END Content-->
+		</div> <!--first-->
+		<div id="second">
+			<div class="text-box">
+				<h3>Introductions Made Easy</h3>
+				<p>We help people looking for relationships find eachother by introducing them to people around them with similar interntions and compatability.
+				</p>
+			</div><!-- End -->
+		</div><!-- Second -->
+
+
+		<script type="text/javascript" src="scripts/jquery.smoothscroll.js"></script>
+		<script>
+		$('html').smoothScroll(400);
+
+		</script>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+[
+  {
+  "name": "Christina Polan",
+  "age":"21",
+  "about":"Likes Chinese Food, Anime, Boxing",
+  "image":"<img src='images/girl1.jpg' />"
+},
+{
+  "name": "Suzy Melvin",
+  "age":"26",
+  "height":"6'2",
+  "about":"Soccer, Mexican Food, Beer",
+  "image":"<img src='images/girl2.jpg' />"
+},
+{
+  "name": "Ashlyn Garcia",
+  "age":"24",
+  "height":"5'2",
+  "about":"Likes Mangu, Reality Tv, Bachata",
+  "image":"<img src='images/girl3.jpg' />"
+},
+{
+  "name": "Donna Beck",
+  "age":"29",
+  "height":"5'6",
+  "about":"Likes Chile.",
+  "image":"<img src='images/picture.jpg' />"
+}
+
+
+
+
+]
